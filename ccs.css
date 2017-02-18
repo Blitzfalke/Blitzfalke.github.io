@@ -4,6 +4,11 @@ html * {
 *:before,
 *:after {
     box-sizing: border-box;
+     display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
+    
 }
 
 /*
@@ -327,6 +332,11 @@ section {
 }
 body {
     line-height: 1;
+   
+     display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    justify-content: center;
 }
 ol,
 ul {
@@ -357,6 +367,10 @@ table {
         font-size: 23px;
         
         margin-left: 190px;
+         display: flex;
+        flex-flow: column;
+        align-content: center;
+        justify-content: center;
     }
     body {
         font-size: 20px;
@@ -364,7 +378,11 @@ table {
         color: black;
         display: flex;
         flex-flow: column;
+        align-content: center;
+        justify-content: center;
+          flex-flow: column nowrap;
     }
+    
     nav {
         margin-top: -30px;
         border-top: .5px solid black;
@@ -379,9 +397,18 @@ table {
         padding-bottom: 5px;
         padding-top: 5px;
         color: white;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
     }
     nav li {
         display: inline;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     }
     #sites {
         margin-top: 30px;
@@ -399,11 +426,26 @@ table {
         padding-top: 5px;
         color: white;
         display: inline;
-        
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+      flex-flow: column nowrap;
     }
     Main {
          padding-bottom: 5px;
         padding-top: 5px;
+         line-height: normal;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
+    }
+    figure {
+        display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
         
     }
    
@@ -418,18 +460,39 @@ table {
         text-align: center;
         padding-bottom: 5px;
         padding-top: 5px;
+         line-height: normal;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
     }
     h2 {
         margin-left: 200px;
         background-color: steelblue;
         color: white;
         text-align: center;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
     }
     h3 {
+        visibility: hidden;
         margin-left: 200px;
         background-color: steelblue;
         color: white;
         align-content: flex-end;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+        
+    }
+    h5 {
+        visibility: hidden;
+        
     }
     p {
         border-top: .5px solid black;
@@ -443,6 +506,213 @@ table {
         margin: 30px;
         width: 500px;
         text-align: center;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    img {
+        background-color: steelblue;
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-left: .5px solid black;
+        border-bottom: .5px solid black;
+        color: white;
+        align-content: center;
+        object-position: center;
+        margin-left: auto;
+
+    display: flex;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    footer {
+        background-color: steelblue;
+        color: white;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    #hourly {
+        display: none;
+    }
+    #mobile {}
+    #tab {
+        display: none;
+    }
+    #brow {
+        display: none;
+    }
+}
+/* Tablet */
+@media only screen and (min-width:426px) and (max-width: 780px){
+    header {
+        background-color: black;
+        color: white;
+        font-size: 23px;
+        
+        margin-left: 190px;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    body {
+        font-size: 20px;
+        background-color: black;
+        color: black;
+        display: flex;
+        flex-flow: column;
+        margin: auto;
+          flex-flow: column nowrap;
+       
+    }
+    nav {
+        margin-top: -30px;
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-left: .5px solid black;
+        border-bottom: .5px solid black;
+        width: 100%;
+        margin: auto;
+        background-color: steelblue;
+        height: auto;
+        font-size: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: white;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    nav li {
+        display: inline;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    #sites {
+        margin-top: 30px;
+        
+        border-top: .5px solid steelblue;
+        border-right: .5px solid steelblue;
+        border-left: .5px solid steelblue;
+        border-bottom: .5px solid steelblue;
+        width: 100%;
+/*        margin: auto;*/
+        background-color: steelblue;
+        height: auto;
+        font-size: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: white;
+        display: inline;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+        
+    }
+    Main {
+         padding-bottom: 5px;
+        padding-top: 5px;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+        
+    }
+   
+    h1 {
+        /*    margin-left: 200px;*/
+        border-top: .5px solid steelblue;
+        border-right: .5px solid steelblue;
+        border-left: .5px solid steelblue;
+        border-bottom: .5px solid steelblue;
+        background-color: steelblue;
+        color: white;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+        
+    }
+    h2 {
+        visibility: hidden;
+        margin-left: 200px;
+        background-color: steelblue;
+        color: white;
+        text-align: center;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    h3 {
+        margin-left: 200px;
+        background-color: steelblue;
+        color: white;
+        align-content: center;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    h5 {
+        
+        margin-left: 200px;
+        background-color: steelblue;
+        color: white;
+        align-content: center;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    
+        
+    }
+    p {
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-left: .5px solid black;
+        border-bottom: .5px solid black;
+        background-color: steelblue;
+        color: black;
+        padding: 5px;
+        border: 1px solid #000000;
+        margin: auto;
+        
+        
+        text-align: center;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+      flex-flow: column nowrap;
     }
     img {
         background-color: steelblue;
@@ -454,10 +724,215 @@ table {
         align-content: center;
         object-position: center;
         margin-left: 100px;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+        
     }
     footer {
         background-color: steelblue;
         color: white;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    #hourly {
+        display: none;
+    }
+    #mobile {}
+    #tab {
+        display: none;
+    }
+    #brow {
+        display: none;
+    }
+}
+/* destop */
+@media only screen and (min-width:781px) {
+    header {
+        background-color: black;
+        color: white;
+        font-size: 23px;
+        
+        margin-left: 190px;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+        
+    }
+    body {
+        font-size: 20px;
+        background-color: dimgrey;
+        color: black;
+        display: flex;
+        margin: auto;
+        display: flex;
+        flex-flow: column;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    nav {
+        margin-top: -30px;
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-left: .5px solid black;
+        border-bottom: .5px solid black;
+        width: 100%;
+        margin: auto;
+        background-color: steelblue;
+        height: auto;
+        font-size: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: white;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    nav li {
+        display: inline;
+        margin: auto;
+          display: flex;
+    align-content: center;
+    justify-content: center;
+          flex-flow: column nowrap;
+    }
+    #sites {
+        margin-top: 30px;
+        margin-left: 50px;
+        border-top: .5px solid steelblue;
+        border-right: .5px solid steelblue;
+        border-left: .5px solid steelblue;
+        border-bottom: .5px solid steelblue;
+        width: 100%;
+/*        margin: auto;*/
+        background-color: dodgerblue;
+        height: auto;
+        font-size: 20px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        color: white;
+        display: inline;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
+        
+    }
+    Main {
+         padding-bottom: 5px;
+        padding-top: 5px;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
+        
+    }
+   
+    h1 {
+        /*    margin-left: 200px;*/
+        border-top: .5px solid steelblue;
+        border-right: .5px solid steelblue;
+        border-left: .5px solid steelblue;
+        border-bottom: .5px solid steelblue;
+        background-color: dodgerblue;
+        color: white;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
+    }
+    h2 {
+        visibility: hidden;
+        margin-left: 200px;
+        background-color: steelblue;
+        color: white;
+        text-align: center;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
+    }
+    h3 {
+        
+        margin-left: 200px;
+        background-color: steelblue;
+        color: white;
+        align-content: flex-end;
+        margin: auto;
+        width: 50%;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
+    }
+    p {
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-left: .5px solid black;
+        border-bottom: .5px solid black;
+        background-color: steelblue;
+        color: black;
+        padding: 5px;
+        border: 1px solid #000000;
+        margin: auto;
+        line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+        text-align: center;
+         flex-flow: column nowrap;
+    }
+    img {
+        background-color: steelblue;
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-left: .5px solid black;
+        border-bottom: .5px solid black;
+        color: white;
+        align-content: center;
+        object-position: center;
+        margin-left: 100px;
+        margin: auto;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
+    }
+    footer {
+        background-color: steelblue;
+        color: white;
+         line-height: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+         flex-flow: column nowrap;
     }
     #hourly {
         display: none;
