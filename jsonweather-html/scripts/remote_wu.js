@@ -12,6 +12,7 @@ $(function () {
 
                 // Call the getData function, send the lat and long
                 getData(lat, long);
+                console.log(lat);
 
             });
         } else {
