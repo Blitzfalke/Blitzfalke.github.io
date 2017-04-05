@@ -330,7 +330,7 @@ section {
 
 @media only screen and (max-width:425px) {
     header {
-        background-color: black;
+        background-color: gold;
         color: white;
         font-size: 23px;
         
@@ -342,7 +342,7 @@ section {
     }
     body {
         font-size: 20px;
-        background-color: black;
+        background-color: gold;
         color: black;
         display: flex;
         flex-flow: column;
@@ -359,7 +359,7 @@ section {
         border-bottom: .5px solid black;
         width: 100%;
         margin: auto;
-        background-color: steelblue;
+        background-color: gold;
         height: auto;
         font-size: 20px;
         padding-bottom: 5px;
@@ -387,7 +387,7 @@ section {
         border-bottom: .5px solid steelblue;
         width: 100%;
 /*        margin: auto;*/
-        background-color: steelblue;
+        background-color: gold;
         height: auto;
         font-size: 20px;
         padding-bottom: 5px;
@@ -423,7 +423,7 @@ section {
         border-right: .5px solid steelblue;
         border-left: .5px solid steelblue;
         border-bottom: .5px solid steelblue;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         text-align: center;
         padding-bottom: 5px;
@@ -436,7 +436,7 @@ section {
     }
     h2 {
         margin-left: 200px;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         text-align: center;
          line-height: 1;
@@ -448,7 +448,7 @@ section {
     h3 {
         visibility: hidden;
         margin-left: 200px;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         align-content: flex-end;
          line-height: 1;
@@ -467,7 +467,7 @@ section {
         border-right: .5px solid black;
         border-left: .5px solid black;
         border-bottom: .5px solid black;
-        background-color: steelblue;
+        background-color:gold;
         color: black;
         padding: 5px;
         border: 1px solid #000000;
@@ -481,7 +481,7 @@ section {
           flex-flow: column nowrap;
     }
     img {
-        background-color: steelblue;
+        background-color: gold;
         border-top: .5px solid black;
         border-right: .5px solid black;
         border-left: .5px solid black;
@@ -496,7 +496,7 @@ section {
           flex-flow: column nowrap;
     }
     footer {
-        background-color: steelblue;
+        background-color: gold;
         color: white;
          line-height: 1;
     display: flex;
@@ -518,7 +518,7 @@ section {
 /* Tablet */
 @media only screen and (min-width:426px) and (max-width: 780px){
     header {
-        background-color: black;
+        background-color: gold;
         color: white;
         font-size: 23px;
         
@@ -531,7 +531,7 @@ section {
     }
     body {
         font-size: 20px;
-        background-color: black;
+        background-color: gold;
         color: black;
         display: flex;
         flex-flow: column;
@@ -547,7 +547,7 @@ section {
         border-bottom: .5px solid black;
         width: 100%;
         margin: auto;
-        background-color: steelblue;
+        background-color: gold;
         height: auto;
         font-size: 20px;
         padding-bottom: 5px;
@@ -557,7 +557,7 @@ section {
     display: flex;
     align-content: center;
     justify-content: center;
-          flex-flow: column nowrap;
+          flex-flow: row nowrap;
     }
     nav li {
         display: inline;
@@ -566,7 +566,7 @@ section {
     display: flex;
     align-content: center;
     justify-content: center;
-          flex-flow: column nowrap;
+          flex-flow: row nowrap;
     }
     #sites {
         margin-top: 30px;
@@ -577,7 +577,7 @@ section {
         border-bottom: .5px solid steelblue;
         width: 100%;
 /*        margin: auto;*/
-        background-color: steelblue;
+        background-color: gold;
         height: auto;
         font-size: 20px;
         padding-bottom: 5px;
@@ -610,7 +610,7 @@ section {
         border-right: .5px solid steelblue;
         border-left: .5px solid steelblue;
         border-bottom: .5px solid steelblue;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         text-align: center;
         padding-bottom: 5px;
@@ -626,7 +626,7 @@ section {
     h2 {
         visibility: hidden;
         margin-left: 200px;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         text-align: center;
         margin: auto;
@@ -638,7 +638,7 @@ section {
     }
     h3 {
         margin-left: 200px;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         align-content: center;
         margin: auto;
@@ -651,7 +651,7 @@ section {
     h5 {
         
         margin-left: 200px;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         align-content: center;
         margin: auto;
@@ -668,7 +668,7 @@ section {
         border-right: .5px solid black;
         border-left: .5px solid black;
         border-bottom: .5px solid black;
-        background-color: steelblue;
+        background-color: gold;
         color: black;
         padding: 5px;
         border: 1px solid #000000;
@@ -683,7 +683,7 @@ section {
       flex-flow: column nowrap;
     }
     img {
-        background-color: steelblue;
+        background-color: gold;
         border-top: .5px solid black;
         border-right: .5px solid black;
         border-left: .5px solid black;
@@ -701,7 +701,7 @@ section {
         
     }
     footer {
-        background-color: steelblue;
+        background-color: gold;
         color: white;
          line-height: 1;
     display: flex;
@@ -723,7 +723,7 @@ section {
 /* destop */
 @media only screen and (min-width:781px) {
     header {
-        background-color: black;
+        background-color: gold;
         color: white;
         font-size: 23px;
         
@@ -738,7 +738,7 @@ section {
     }
     body {
         font-size: 20px;
-        background-color: dimgrey;
+        background-color: gold;
         color: black;
         display: flex;
         margin: auto;
@@ -758,7 +758,7 @@ section {
         border-bottom: .5px solid black;
         width: 100%;
         margin: auto;
-        background-color: steelblue;
+        background-color: gold;
         height: auto;
         font-size: 20px;
         padding-bottom: 5px;
@@ -787,7 +787,7 @@ section {
         border-bottom: .5px solid steelblue;
         width: 100%;
 /*        margin: auto;*/
-        background-color: dodgerblue;
+        background-color: gold;
         height: auto;
         font-size: 20px;
         padding-bottom: 5px;
@@ -820,7 +820,7 @@ section {
         border-right: .5px solid steelblue;
         border-left: .5px solid steelblue;
         border-bottom: .5px solid steelblue;
-        background-color: dodgerblue;
+        background-color: gold;
         color: white;
         text-align: center;
         padding-bottom: 5px;
@@ -835,7 +835,7 @@ section {
     h2 {
         visibility: hidden;
         margin-left: 200px;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         text-align: center;
         margin: auto;
@@ -848,7 +848,7 @@ section {
     h3 {
         
         margin-left: 200px;
-        background-color: steelblue;
+        background-color: gold;
         color: white;
         align-content: flex-end;
         margin: auto;
@@ -864,7 +864,7 @@ section {
         border-right: .5px solid black;
         border-left: .5px solid black;
         border-bottom: .5px solid black;
-        background-color: steelblue;
+        background-color: gold;
         color: black;
         padding: 5px;
         border: 1px solid #000000;
@@ -877,7 +877,7 @@ section {
          flex-flow: column nowrap;
     }
     img {
-        background-color: steelblue;
+        background-color: gold;
         border-top: .5px solid black;
         border-right: .5px solid black;
         border-left: .5px solid black;
@@ -894,7 +894,7 @@ section {
          flex-flow: column nowrap;
     }
     footer {
-        background-color: steelblue;
+        background-color: gold;
         color: white;
          line-height: 1;
     display: flex;
